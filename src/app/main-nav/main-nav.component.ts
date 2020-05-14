@@ -14,4 +14,8 @@ export class MainNavComponent implements OnInit {
   ngOnInit() {
   }
 
+  showAbout() {
+    this.toastService.showToast('primary', 5000, 'This application is designed by Gurkanwar Singh. (C) 2018')
+  }
+
 }
